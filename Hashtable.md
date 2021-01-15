@@ -1,15 +1,15 @@
 # Hashtable
 
 
-Hash functions 
-Hash function generates the hash key to hash value.
-Hash functions are idempotent.
-Idempotent: a properties that always return the same result for the same input.
+# Hash functions 
+Hash function generates the hash key to hash value. <br/>
+Hash functions are idempotent. <br/>
+Idempotent: a properties that always return the same result for the same input. <br/>
 
 Hash map
-Hash function generates the hash key to hash value.
-The generated hash values become the index position in the data storage array.
-And the (key, value) pair is stored inside data structure with  hash values index position.
+Hash function generates the hash key to hash value. <br/>
+The generated hash values become the index position in the data storage array. <br/>
+And the (key, value) pair is stored inside data structure with  hash values index position. <br/>
 
 ```python
 Address = Hash_Function(keys)
