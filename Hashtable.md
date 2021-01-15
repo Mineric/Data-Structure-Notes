@@ -2,7 +2,7 @@
 
 
 ## Hash functions 
-Hash function generates the hash key to hash value. <br/>
+** Hash function generates the hash key to hash value. <br/>
 Hash functions are idempotent. <br/>
 Idempotent: a properties that always return the same result for the same input. <br/>
 
@@ -18,10 +18,10 @@ Hash_Table[Address].append([keys, values])
 ```
 
 ## Hash Collision
-	* The hash function is based on the size of storage array. (in case only two elements can be stored in the storage array, the hash function cannot be generated index position more than two. ) 
-	* Therefore, same hash values key may be generated for several items (in case store items become more than two.) 
-	* In that case, different values with different hash key may be stored under same hash values index. 
-	* This is called hash collision. 
+* The hash function is based on the size of storage array. (in case only two elements can be stored in the storage array, the hash function cannot be generated index position more than two. ) 
+* Therefore, same hash values key may be generated for several items (in case store items become more than two.) 
+* In that case, different values with different hash key may be stored under same hash values index. 
+* This is called hash collision. 
 Note: in most language this collided data are stores as lists in the same index. For example, an array of size(2).
 
 ```python
@@ -29,8 +29,8 @@ Note: in most language this collided data are stores as lists in the same index.
 ```
 
 ## Big O analysis
-	* Normally, Hash map cost O(1) for most operations, insert, lookup, delete or remove, search or access.
-	* If there is Hash Collison, it cost O(n) for some operations, such as search, etc.
+* Normally, Hash map cost O(1) for most operations, insert, lookup, delete or remove, search or access.
+* If there is Hash Collison, it cost O(n) for some operations, such as search, etc.
 
 ### Fun facts
 * Python: Dictionary.
