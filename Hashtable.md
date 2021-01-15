@@ -20,7 +20,7 @@ Hash_Table[Address].append([keys, values])
 ## Hash Collision
 * The hash function is based on the size of storage array. **(in case only two elements can be stored in the storage array, the hash function cannot be generated index position more than two. )**
 * Therefore, same hash values key may be generated for several items **(in case store items become more than two.)**
-* In that case, different values with different hash key may be stored under same hash values index. 
+* In that case, different values with different hash key may be stored under same `bucket` hash values index. 
 * This is called hash collision. <br/>
 **Note: In most language this collided values are stored as `linked lists` a type of data strucuture in the same index. For example, an array of size(2) as below.**
 
@@ -29,8 +29,20 @@ Hash_Table[Address].append([keys, values])
 ```
 
 ## Big O analysis
-* Normally, Hash map cost `O(1)` for most operations, insert, `lookup`, `delete` or `remove`, `search` or `access`.
-* If there is Hash Collison, it cost `O(n)` for some operations, such as search, etc.
+
+#### Time Complexity
+* Normally, Hashtable cost `O(1)` for most operations, `insert`, `lookup`, `delete` or `remove`, `search` or `access`.
+* If there is Hash Collison, some operations, such as search become slow down and it become `O(n)`.
+
+`Average Case: O(1)`
+`Worst Case: O(n)` 
+
+#### SpaceComplexity
+A reasonable hashtable cost O(n) space Complexity.
+
+`Average Case: O(n)`
+`Worst Case: O(n)`
+
 
 ### Fun facts
 * Python: Dictionary.
