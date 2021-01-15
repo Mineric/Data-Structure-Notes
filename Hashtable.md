@@ -49,7 +49,7 @@ Does hash function slow down the data structure operations?
 * Set items cannot be referred by index values. ``` { set[i] }. ```
 * Set elements are immutable, unchangeable.
 * Set cannot be append new items.
-* Set items are unique allows no duplicate items. `{1, 1, 1, 2, 2, 2, 2} >> {1, 2}`
+* Set items are unique and don't allow duplicate items. `{1, 1, 1, 2, 2, 2, 2} >> {1, 2}`
 * Set are `O(1)`.
 
 
