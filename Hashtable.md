@@ -23,7 +23,10 @@ Hash Collision
 	- In that case, different values with different hash key may be stored under same hash values index.
 	- This is called hash collision.
 Note: in most language this collided data are stores as lists in the same index. For example, an array of size(2).
+
+```python
 {["a" , 1] , [ ["b" , 2], ["c" , 3] , … , ["j" , 7] ]} 
+```
 
 Big O analysis
 	- Normally, Hash map cost O(1) for most operations, insert, lookup, delete or remove, search or access.
