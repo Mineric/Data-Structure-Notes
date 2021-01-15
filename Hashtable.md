@@ -49,8 +49,8 @@ A reasonable hashtable cost O(n) space Complexity.
 ### Fun facts
 * Python: Dictionary.
 * JS: Objects
-* Java: Array
-* C/C++/ C#: Array
+* Java: 
+* C/C++/ C#:
 
 ### Questions
 Does hash function slow down the data structure operations?
