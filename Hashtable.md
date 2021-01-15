@@ -77,10 +77,10 @@ Access: ``` dictionary[1]
 * Get method takes only two arguments and the second argument is taken as optional default value.
 * If first argument, key value is not existed in the dictionary, it return second argument which is default value.
 
-``` dictionary.keys() ```   >>> return keys 
-``` dictionary.values() ``` >>> return values
-``` dictionary.items() ``` >>> return items / `(keys, value)` pair items. <br/>
-Above three will return classes.
+``` dictionary.keys() >>> return keys ``` <br/>
+``` dictionary.values() >>> return values ```  <br/>
+``` dictionary.items() >>> return items  ```  / `(keys, value)` pair items. <br/>
+**Above three will return classes.**
 
 ### Looping : 
 ```python
