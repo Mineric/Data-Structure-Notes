@@ -34,13 +34,13 @@ Hash_Table[Address].append([keys, values])
 * Normally, Hashtable cost `O(1)` for most operations, `insert`, `lookup`, `delete` or `remove`, `search` or `access`.
 * If there is Hash Collison, some operations, such as search become slow down and it become `O(n)`.
 
-`Average Case: <span style="color:blue"> O(1) </span>` <span style="color:blue">some *blue* text</span>.
+`Average Case: <span style="color:blue"> O(1) </span>`
 `Worst Case: O(n)` 
 
 #### SpaceComplexity
 A reasonable hashtable cost O(n) space Complexity.
 
-`Average Case: O(n)`
+`Average Case: **O(n)**`
 `Worst Case: O(n)`
 
 
@@ -58,7 +58,7 @@ Does hash function slow down the data structure operations?
 ```
 * Set:  in python, set are based on Hash tables.
 * Set are unordered collections of items.
-* Set items cannot be referred by index values. ``` { set[i] }. ```
+* Set items cannot be referred by index values. ``` { set[i] } ```
 * Set elements are immutable, unchangeable.
 * Set cannot be append new items.
 * Set items are unique and don't allow duplicate items. `{1, 1, 1, 2, 2, 2, 2} >> {1, 2}`
