@@ -11,9 +11,11 @@ Hash function generates the hash key to hash value.
 The generated hash values become the index position in the data storage array.
 And the (key, value) pair is stored inside data structure with  hash values index position.
 
+'''
 Address = Hash_Function(keys)
 
 Hash_Table[Address].push([keys, values])
+'''
 
 Hash Collision
 	- The hash function is based on the size of storage array. (in case only two elements can be stored in the storage array, the hash function cannot be generated index position more than two. )
