@@ -21,8 +21,8 @@ Hash_Table[Address].append([keys, values])
 * The hash function is based on the size of storage array. **(in case only two elements can be stored in the storage array, the hash function cannot be generated index position more than two. )**
 * Therefore, same hash values key may be generated for several items **(in case store items become more than two.)**
 * In that case, different values with different hash key may be stored under same hash values index. 
-* This is called hash collision. 
-**Note: in most language this collided data are stores as lists in the same index. For example, an array of size(2).**
+* This is called hash collision. <br/>
+**Note: In most language this collided values are stored as lists in the same index. For example, an array of size(2) as below.**
 
 ```python
 {["a" , 1] , [ ["b" , 2], ["c" , 3] , … , ["j" , 7] ]} 
