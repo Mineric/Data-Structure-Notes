@@ -63,9 +63,10 @@ dictionary = {
   '3' : [1, 2, 3], 
   'four' : {'fun': 'addition'}, 
   5.0 : 5.5, 
-  'six' : <function six at 0x04046970>
+  'six' : six()
 }
-
+```
+``` python
 def six():
     return 6
 ```
