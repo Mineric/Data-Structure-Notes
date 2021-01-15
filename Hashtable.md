@@ -22,7 +22,7 @@ Hash_Table[Address].append([keys, values])
 * Therefore, same hash values key may be generated for several items **(in case store items become more than two.)**
 * In that case, different values with different hash key may be stored under same hash values index. 
 * This is called hash collision. <br/>
-**Note: In most language this collided values are stored as lists in the same index. For example, an array of size(2) as below.**
+**Note: In most language this collided values are stored as `linked lists` a type of data strucuture in the same index. For example, an array of size(2) as below.**
 
 ```python
 {["a" , 1] , [ ["b" , 2], ["c" , 3] , … , ["j" , 7] ]} 
