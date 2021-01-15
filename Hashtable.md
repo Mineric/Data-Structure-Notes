@@ -75,8 +75,8 @@ Insert: ``` dictionary[7] = "seven" ```
 Remove: ``` dictionary.pop('six') ```
 Access: ``` dictionary[1] 
                 >>> 'hello'
-	```
-* Get: dcitionary.get('two')
+	``` <br/>
+Get: ``` dcitionary.get('two') ```
 * Get method takes key as first argument and return values if it is exist. Else it return None.
 * Get method takes only two arguments and the second argument is taken as optional default value.
 * If first argument, key value is not existed in the dictionary, it return second argument which is default value.
