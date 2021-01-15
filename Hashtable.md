@@ -79,7 +79,7 @@ Access: ``` python dictionary[1]
 
 ``` dictionary.keys() ```   >>> return keys 
 ``` dictionary.values() ``` >>> return values
-``` dictionary.items() ``` >>> return items / (keys, value) pair items. <br/>
+``` dictionary.items() ``` >>> return items / `(keys, value)` pair items. <br/>
 Above three will return classes.
 
 ### Looping : 
