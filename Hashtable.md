@@ -34,8 +34,8 @@ Hash_Table[Address].append([keys, values])
 * Normally, Hashtable cost `O(1)` for most operations, `insert`, `lookup`, `delete` or `remove`, `search` or `access`.
 * If there is Hash Collison, some operations, such as search become slow down and it become `O(n)`.
 
-**`Average Case: O(1 text in red)`**
-**`Worst Case: O(n)`**
+**``` diff Average Case: O(1 text in red)`**
+**``` diff Worst Case: O(n text in red)`**
 
 #### SpaceComplexity
 A reasonable hashtable cost O(n) space Complexity.
