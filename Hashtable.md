@@ -65,6 +65,9 @@ dictionary = {
   5.0 : 5.5, 
   'six' : <function six at 0x04046970>
 }
+
+def six():
+    return 6
 ```
 
 Insert: ``` dictionary[7] = "seven" ```
