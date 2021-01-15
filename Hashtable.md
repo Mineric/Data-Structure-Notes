@@ -77,9 +77,9 @@ Access: ``` python dictionary[1]
 * Get method takes only two arguments and the second argument is taken as optional default value.
 * If first argument, key value is not existed in the dictionary, it return second argument which is default value.
 
-``` python dictionary.keys() ```   >>> return keys 
-``` python dictionary.values() ``` >>> return values
-``` python dictionary.items() ``` >>> return items / (keys, value) pair items. <br/>
+``` dictionary.keys() ```   >>> return keys 
+``` dictionary.values() ``` >>> return values
+``` dictionary.items() ``` >>> return items / (keys, value) pair items. <br/>
 Above three will return classes.
 
 ### Looping : 
@@ -88,6 +88,6 @@ for key, value in dictionary.items():
     print(key, value)
 ```
 
-Note: don’t confuse with `<enumerate>`. Which return index value and items in iteration.
+Note: don’t confuse with `enumerate`. Which return index value and items in iteration.
 
 
