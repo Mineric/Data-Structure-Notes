@@ -2,7 +2,7 @@
 
 
 ## Hash functions 
-* Hash function generates the hash key to hash value. <br/>
+* Hash function generates the hash key into hash value. <br/>
 * Hash functions are idempotent. <br/>
 * Idempotent: a properties that always return the same result for the same input. <br/>
 
