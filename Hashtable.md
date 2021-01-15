@@ -17,7 +17,7 @@ Address = Hash_Function(keys)
 Hash_Table[Address].append([keys, values])
 ```
 
-##Hash Collision
+## Hash Collision
 	* The hash function is based on the size of storage array. (in case only two elements can be stored in the storage array, the hash function cannot be generated index position more than two. ) 
 	* Therefore, same hash values key may be generated for several items (in case store items become more than two.) 
 	* In that case, different values with different hash key may be stored under same hash values index. 
@@ -28,17 +28,17 @@ Note: in most language this collided data are stores as lists in the same index.
 {["a" , 1] , [ ["b" , 2], ["c" , 3] , … , ["j" , 7] ]} 
 ```
 
-##Big O analysis
+## Big O analysis
 	* Normally, Hash map cost O(1) for most operations, insert, lookup, delete or remove, search or access.
 	* If there is Hash Collison, it cost O(n) for some operations, such as search, etc.
 
-###Fun facts
+### Fun facts
 * Python: Dictionary.
 * JS: Objects
 * Java: Array
 * C/C++/ C#: Array
 
-Questions
+### Questions
 Does hash function slow down the data structure operations?
 
 ``` python
@@ -46,11 +46,11 @@ Does hash function slow down the data structure operations?
 ```
 * Set:  in python, set are based on Hash tables.
 * Set are unordered collections of items.
-* Set items cannot be referred by index values. ``` python { set[i] }. ```
+* Set items cannot be referred by index values. ``` { set[i] }. ```
 * Set elements are immutable, unchangeable.
 * Set cannot be append new items.
-* Set items are unique allows no duplicate items. {1, 1, 1, 2, 2, 2, 2} >> {1, 2}
-* Set are O(1).
+* Set items are unique allows no duplicate items. `{1, 1, 1, 2, 2, 2, 2} >> {1, 2}`
+* Set are `O(1)`.
 
 
 ## Hash Table with Python (Dictionary)
@@ -88,6 +88,6 @@ for key, value in dictionary.items():
     print(key, value)
 ```
 
-Note: don’t confuse with `enumerate`. Which return index value and items in iteration.
+##### Note: don’t confuse with `enumerate`. Which return index value and items in iteration.
 
 
