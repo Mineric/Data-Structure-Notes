@@ -67,9 +67,9 @@ dictionary = {
 }
 ```
 
-``` Insert: dictionary[7] = "seven" ```
-``` Remove: dictionary.pop('six') ```
-``` Access: dictionary[1] 
+Insert: ``` dictionary[7] = "seven" ```
+Remove: ``` dictionary.pop('six') ```
+Access: ``` dictionary[1] 
                 >>> 'hello'
 	```
 * Get: dcitionary.get('two')
