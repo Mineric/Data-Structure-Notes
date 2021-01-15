@@ -11,10 +11,10 @@ Hash function generates the hash key to hash value.
 The generated hash values become the index position in the data storage array.
 And the (key, value) pair is stored inside data structure with  hash values index position.
 
-```
+```python
 Address = Hash_Function(keys)
 
-Hash_Table[Address].push([keys, values])
+Hash_Table[Address].append([keys, values])
 ```
 
 Hash Collision
@@ -41,11 +41,12 @@ C/C++/ C#: Array
 Questions
 Does hash function slow down the data structure operations?
 
-
+``` python
 {1, 2, 3, 4}
+```
 Set:  in python, set are based on Hash tables.
 Set are unordered collections of items.
-Set items cannot be referred by index values. { set[i] }.
+Set items cannot be referred by index values. ``` python { set[i] }. ```
 Set elements are immutable, unchangeable.
 Set cannot be append new items.
 Set items are unique allows no duplicate items. {1, 1, 1, 2, 2, 2, 2} >> {1, 2}
