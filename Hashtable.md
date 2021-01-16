@@ -55,6 +55,7 @@ A reasonable hashtable cost O(n) space Complexity.
 ### Questions
 Does hash function slow down the data structure operations?
 
+### Sets
 ``` python
 {1, 2, 3, 4}
 ```
