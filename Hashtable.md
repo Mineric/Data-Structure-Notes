@@ -12,8 +12,10 @@
 * And the (key, value) pair is stored inside data structure with  hash values index position. <br/>
 
 ```python
-Address = Hash_Function(keys)
 
+Hash_Table = []
+Address = Hash_Function(keys)
+Hash_Table[Address] = []
 Hash_Table[Address].append([keys, values])
 ```
 
