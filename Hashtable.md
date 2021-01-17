@@ -13,7 +13,7 @@
 
 ```python
 
-Hash_Table = []
+Hash_Table = [None] * size
 Address = Hash_Function(keys)
 Hash_Table[Address] = []
 Hash_Table[Address].append([keys, values])
