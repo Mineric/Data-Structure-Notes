@@ -32,8 +32,10 @@ int arrys[3] = {1,2,3};
 
 **Append operation can be  0(n) in some case. Because it has to loop over all item inside array, copy it and resize the original arrays.**
 
-`
-How this append(push) operation work?
+
+##### How this append(push) operation work?
+
+```
 In case of a four block of array, adding with 4 more items .
 (0x1) [1, 2, 3, 4]
 
@@ -42,7 +44,7 @@ In case of a four block of array, adding with 4 more items .
 \/
 (0x4)  [1, 2, 3, 4,  ,  ,  ,  ]  << moved it to a different location. Now it become 8 block of space and can add more item. 
 (question: what happened to the original memory stored location? Space?)
-`
+```
 
 ``` python
 array = [1,2,3]
