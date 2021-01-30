@@ -31,7 +31,7 @@ int arrys[3] = {1,2,3};
 * Can be found in higher level languages like python, JS
 * Slower.
 
-* Append operation can be  0(n) in some case. Because it has to loop over all item inside array, copy it and resize the original arrays.*
+**Append operation can be  0(n) in some case. Because it has to loop over all item inside array, copy it and resize the original arrays.
 
 `
 How this append(push) operation work?
