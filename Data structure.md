@@ -18,7 +18,7 @@ Data structure is all about arrangement of data. We can define how to interact w
 ## Powerful
 
 
-# Basic operations 
+### Basic operations 
 
 * Insertion
 * Deletion
