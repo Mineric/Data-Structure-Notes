@@ -13,7 +13,7 @@ In language like C/C++, static arrays are used and
 JS, python uses dynamic arrays.
 
 
-Static arrays
+#### Static arrays
 	- Need to decide ahead of time the number of items that can hold inside arrays.
 	- More control over memory.
 	- Faster 
@@ -23,15 +23,15 @@ Static arrays
 int arrys[3] = {1,2,3};
 ```
 
-Dynamic arrays
-	- Dynamic arrays allow us to rebuild and copy the arrays at a new location with more memory if we want to add more items inside.
-	- They automatically allocate the memory location when adding more items cause of automatic resizing.
-	- The machine take care off everything for you
-	- So it take more 
-	- Can be found in higher level languages like python, JS
-	- Slower.
+#### Dynamic arrays
+* Dynamic arrays allow us to rebuild and copy the arrays at a new location with more memory if we want to add more items inside.
+* They automatically allocate the memory location when adding more items cause of automatic resizing.
+* The machine take care off everything for you
+* So it take more 
+* Can be found in higher level languages like python, JS
+* Slower.
 
-Append operation can be  0(n) in some case. Because it has to loop over all item inside array, copy it and resize the original arrays.
+* Append operation can be  0(n) in some case. Because it has to loop over all item inside array, copy it and resize the original arrays.*
 
 `
 How this append(push) operation work?
