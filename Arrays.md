@@ -1,23 +1,22 @@
 # Arrays
 
-Arrays are the simplest data structure type.
+Arrays are the simplest data structure type. </br>
 
-The data are stored adjacent to each other in the array.
+The data are stored adjacent to each other in the array. </br>
 
-Arrays operations.
+Arrays operations. </br>
 
 
-
-There are two types of arrays Static and Dynamic arrays. 
-In language like C/C++, static arrays are used and 
+There are two types of arrays Static and Dynamic arrays. </br>
+In language like C/C++, static arrays are used and </br>
 JS, python uses dynamic arrays.
 
 
 #### Static arrays
-	- Need to decide ahead of time the number of items that can hold inside arrays.
-	- More control over memory.
-	- Faster 
-	- Can be found in lower level languages like C 
+* Need to decide ahead of time the number of items that can hold inside arrays.
+* More control over memory.
+* Faster 
+* Can be found in lower level languages like C 
 
 ``` C
 int arrys[3] = {1,2,3};
