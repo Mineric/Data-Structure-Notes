@@ -61,18 +61,18 @@ array
 Array is now [1,2,3,4]
 ```
 
-Big O analysis
-Look up  0(1)
-Push   0(1)
-Insert   0(n)
-Delete   0(n)
+### Big O analysis
+|Look up  | 0(1) |
+|Push     | 0(1) |
+|Insert   | 0(n) |
+|Delete   | 0(n) |
 
 
 
 In JS
 Arrays operations such as unshift which added items from front are 0(n).
 
-Fun facts
+### Fun facts
 Python: List.
 JS: Objects
 Java: 
