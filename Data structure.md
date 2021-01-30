@@ -16,3 +16,22 @@ Data structure is all about arrangement of data. We can define how to interact w
 
 
 ## Powerful
+
+
+# Basic operations 
+
+* Insertion
+* Deletion
+* Traversal (accessing each data once inside data structure.)
+* Searching (location of data item if it is existed inside the collections of items)
+* Sorting
+* Access (how to we access from computer. May be most important one.)
+
+
+Searching
+Know the item value and search that inside the data collection. But don’t know where it is. 
+SO find each and then found tell the location (index).
+
+Accessing
+Search the item inside the collection. Know where it is. (any method, index or location).
+Find by that index or any method. And return value
