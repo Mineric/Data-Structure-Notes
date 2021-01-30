@@ -62,10 +62,11 @@ Array is now [1,2,3,4]
 ```
 
 ### Big O analysis
-|Look up  | 0(1) |
-|Push     | 0(1) |
-|Insert   | 0(n) |
-|Delete   | 0(n) |
+|OPerations| Time Complexity|
+|Look up   | 0(1) |
+|Push      | 0(1) |
+|Insert    | 0(n) |
+|Delete    | 0(n) |
 
 
 
