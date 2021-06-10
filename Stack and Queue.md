@@ -15,7 +15,12 @@ Operations insert, pop.
 Queue has two pointer FRONT and REAR.
 FRONT check the front element that are still reamaining in the Queue and REAR check the last element that is added into the Queue.
 
-Operatoions enqueue, dequeue are available.
+Operatoions `enqueue`, `dequeue` are available.
+
+```js 
+deque
+shift in js
+```
 
 
 Stack can be written any type of data structure arrays or linked list.
